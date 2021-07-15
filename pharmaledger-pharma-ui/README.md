@@ -10,7 +10,7 @@
 
 - Start the server: `npm run start` or `yarn start`
 
-- Views are on: `localhost:3000`
+- Views are on: `localhost:3000` Modify .env to change the port
 
 
 ## File Structure
@@ -55,6 +55,3 @@ material-react-dashboard
 ```
 
 
-## License
-
-- Licensed under MIT (https://github.com/devias-io/react-material-dashboard/blob/master/LICENSE.md)
