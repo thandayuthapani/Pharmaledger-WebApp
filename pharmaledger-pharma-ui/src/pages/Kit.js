@@ -3,10 +3,11 @@ import {
   Box,
   Container,
   Grid,
-  Typography
+  // Typography
 } from '@material-ui/core';
 
 // import LatestOrders from 'src/components/dashboard//LatestOrders';
+import ShipmentRequest from 'src/components/Kit/ShipmentRequest';
 
 const Kit = () => (
   <>
@@ -27,13 +28,7 @@ const Kit = () => (
           container
           spacing={3}
         >
-          <Typography
-            align="center"
-            color="textPrimary"
-            variant="subtitle2"
-          >
-            Kit Data here
-          </Typography>
+          <ShipmentRequest />
         </Grid>
       </Container>
     </Box>

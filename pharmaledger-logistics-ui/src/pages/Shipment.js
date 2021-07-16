@@ -3,10 +3,11 @@ import {
   Box,
   Container,
   Grid,
-  Typography
+  // Typography
 } from '@material-ui/core';
 
 // import LatestOrders from 'src/components/dashboard//LatestOrders';
+import CreateShipment from 'src/components/shipment/CreateShipment';
 
 const Shipment = () => (
   <>
@@ -27,13 +28,7 @@ const Shipment = () => (
           container
           spacing={3}
         >
-          <Typography
-            align="center"
-            color="textPrimary"
-            variant="subtitle2"
-          >
-            Shipment Data here
-          </Typography>
+          <CreateShipment />
         </Grid>
       </Container>
     </Box>

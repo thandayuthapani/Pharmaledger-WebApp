@@ -3,9 +3,11 @@ import {
   Box,
   Container,
   Grid,
-  Typography
+  // Typography
 } from '@material-ui/core';
 
+import TrialTemplate from 'src/components/Trial/TrialTemplate';
+import TrialCreation from 'src/components/Trial/TrialCreation';
 // import LatestOrders from 'src/components/dashboard//LatestOrders';
 
 const Trial = () => (
@@ -22,18 +24,27 @@ const Trial = () => (
         justifyContent: 'center'
       }}
     >
-      <Container maxWidth={false}>
+      <Container maxWidth="lg">
         <Grid
           container
-          spacing={3}
+          spacing={4}
         >
-          <Typography
-            align="center"
-            color="textPrimary"
-            variant="subtitle2"
+          <Grid
+            item
+            lg={4}
+            md={6}
+            xs={12}
           >
-            Trial Data here
-          </Typography>
+            <TrialTemplate />
+          </Grid>
+          <Grid
+            item
+            lg={8}
+            md={6}
+            xs={12}
+          >
+            <TrialCreation />
+          </Grid>
         </Grid>
       </Container>
     </Box>

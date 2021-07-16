@@ -1,6 +1,7 @@
 {
-  "name": "react-material-dashboard",
-  "author": "DeviasIO",
+  "name": "pharmaledger-webapp",
+  "proxy": "http://34.70.33.223:50005/",
+  "author": "Anand",
   "licence": "MIT",
   "version": "1.0.0",
   "private": false,

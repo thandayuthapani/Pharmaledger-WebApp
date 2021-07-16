@@ -3,10 +3,11 @@ import {
   Box,
   Container,
   Grid,
-  Typography
+  // Typography
 } from '@material-ui/core';
 
 // import LatestOrders from 'src/components/dashboard//LatestOrders';
+import PatientEvaluation from 'src/components/evaluation/PatientEvaluation';
 
 const Evaluation = () => (
   <>
@@ -27,13 +28,7 @@ const Evaluation = () => (
           container
           spacing={3}
         >
-          <Typography
-            align="center"
-            color="textPrimary"
-            variant="subtitle2"
-          >
-            Evaluation Data here
-          </Typography>
+          <PatientEvaluation />
         </Grid>
       </Container>
     </Box>
